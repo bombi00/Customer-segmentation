@@ -1,0 +1,1615 @@
+{
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cycler >=0.10.0",
+    "matplotlib-base >=2.0.2,!=3.0.0",
+    "numpy >=1.16.0",
+    "python >=3.12,<3.13.0a0",
+    "scikit-learn >=1.0.0",
+    "scipy >=1.0.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\filip\\miniconda3\\pkgs\\yellowbrick-1.5-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/yellowbrick-1.5.dist-info/INSTALLER",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/LICENSE.txt",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/METADATA",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/RECORD",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/REQUESTED",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/WHEEL",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/direct_url.json",
+    "Lib/site-packages/yellowbrick-1.5.dist-info/top_level.txt",
+    "Lib/site-packages/yellowbrick/__init__.py",
+    "Lib/site-packages/yellowbrick/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/anscombe.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/bestfit.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/datasaurus.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/download.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/draw.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/exceptions.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/pipeline.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/__pycache__/version.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/anscombe.py",
+    "Lib/site-packages/yellowbrick/base.py",
+    "Lib/site-packages/yellowbrick/bestfit.py",
+    "Lib/site-packages/yellowbrick/classifier/__init__.py",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/class_prediction_error.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/classification_report.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/confusion_matrix.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/prcurve.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/rocauc.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/__pycache__/threshold.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/classifier/base.py",
+    "Lib/site-packages/yellowbrick/classifier/class_prediction_error.py",
+    "Lib/site-packages/yellowbrick/classifier/classification_report.py",
+    "Lib/site-packages/yellowbrick/classifier/confusion_matrix.py",
+    "Lib/site-packages/yellowbrick/classifier/prcurve.py",
+    "Lib/site-packages/yellowbrick/classifier/rocauc.py",
+    "Lib/site-packages/yellowbrick/classifier/threshold.py",
+    "Lib/site-packages/yellowbrick/cluster/__init__.py",
+    "Lib/site-packages/yellowbrick/cluster/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/cluster/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/cluster/__pycache__/elbow.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/cluster/__pycache__/icdm.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/cluster/__pycache__/silhouette.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/cluster/base.py",
+    "Lib/site-packages/yellowbrick/cluster/elbow.py",
+    "Lib/site-packages/yellowbrick/cluster/icdm.py",
+    "Lib/site-packages/yellowbrick/cluster/silhouette.py",
+    "Lib/site-packages/yellowbrick/contrib/__init__.py",
+    "Lib/site-packages/yellowbrick/contrib/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/__pycache__/prepredict.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/__pycache__/scatter.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/__pycache__/wrapper.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/classifier/__init__.py",
+    "Lib/site-packages/yellowbrick/contrib/classifier/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/classifier/__pycache__/boundaries.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/classifier/boundaries.py",
+    "Lib/site-packages/yellowbrick/contrib/missing/__init__.py",
+    "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/bar.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/dispersion.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/missing/bar.py",
+    "Lib/site-packages/yellowbrick/contrib/missing/base.py",
+    "Lib/site-packages/yellowbrick/contrib/missing/dispersion.py",
+    "Lib/site-packages/yellowbrick/contrib/prepredict.py",
+    "Lib/site-packages/yellowbrick/contrib/scatter.py",
+    "Lib/site-packages/yellowbrick/contrib/statsmodels/__init__.py",
+    "Lib/site-packages/yellowbrick/contrib/statsmodels/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/statsmodels/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/contrib/statsmodels/base.py",
+    "Lib/site-packages/yellowbrick/contrib/wrapper.py",
+    "Lib/site-packages/yellowbrick/datasaurus.py",
+    "Lib/site-packages/yellowbrick/datasets/__init__.py",
+    "Lib/site-packages/yellowbrick/datasets/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/datasets/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/datasets/__pycache__/download.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/datasets/__pycache__/loaders.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/datasets/__pycache__/path.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/datasets/__pycache__/signature.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/datasets/base.py",
+    "Lib/site-packages/yellowbrick/datasets/download.py",
+    "Lib/site-packages/yellowbrick/datasets/loaders.py",
+    "Lib/site-packages/yellowbrick/datasets/manifest.json",
+    "Lib/site-packages/yellowbrick/datasets/path.py",
+    "Lib/site-packages/yellowbrick/datasets/signature.py",
+    "Lib/site-packages/yellowbrick/download.py",
+    "Lib/site-packages/yellowbrick/draw.py",
+    "Lib/site-packages/yellowbrick/exceptions.py",
+    "Lib/site-packages/yellowbrick/features/__init__.py",
+    "Lib/site-packages/yellowbrick/features/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/decomposition.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/jointplot.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/manifold.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/pca.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/pcoords.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/projection.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/radviz.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/__pycache__/rankd.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/features/base.py",
+    "Lib/site-packages/yellowbrick/features/decomposition.py",
+    "Lib/site-packages/yellowbrick/features/jointplot.py",
+    "Lib/site-packages/yellowbrick/features/manifold.py",
+    "Lib/site-packages/yellowbrick/features/pca.py",
+    "Lib/site-packages/yellowbrick/features/pcoords.py",
+    "Lib/site-packages/yellowbrick/features/projection.py",
+    "Lib/site-packages/yellowbrick/features/radviz.py",
+    "Lib/site-packages/yellowbrick/features/rankd.py",
+    "Lib/site-packages/yellowbrick/gridsearch/__init__.py",
+    "Lib/site-packages/yellowbrick/gridsearch/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/gridsearch/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/gridsearch/__pycache__/pcolor.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/gridsearch/base.py",
+    "Lib/site-packages/yellowbrick/gridsearch/pcolor.py",
+    "Lib/site-packages/yellowbrick/model_selection/__init__.py",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/cross_validation.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/dropping_curve.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/importances.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/learning_curve.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/rfecv.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/__pycache__/validation_curve.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/model_selection/cross_validation.py",
+    "Lib/site-packages/yellowbrick/model_selection/dropping_curve.py",
+    "Lib/site-packages/yellowbrick/model_selection/importances.py",
+    "Lib/site-packages/yellowbrick/model_selection/learning_curve.py",
+    "Lib/site-packages/yellowbrick/model_selection/rfecv.py",
+    "Lib/site-packages/yellowbrick/model_selection/validation_curve.py",
+    "Lib/site-packages/yellowbrick/pipeline.py",
+    "Lib/site-packages/yellowbrick/regressor/__init__.py",
+    "Lib/site-packages/yellowbrick/regressor/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/regressor/__pycache__/alphas.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/regressor/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/regressor/__pycache__/influence.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/regressor/__pycache__/prediction_error.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/regressor/__pycache__/residuals.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/regressor/alphas.py",
+    "Lib/site-packages/yellowbrick/regressor/base.py",
+    "Lib/site-packages/yellowbrick/regressor/influence.py",
+    "Lib/site-packages/yellowbrick/regressor/prediction_error.py",
+    "Lib/site-packages/yellowbrick/regressor/residuals.py",
+    "Lib/site-packages/yellowbrick/style/__init__.py",
+    "Lib/site-packages/yellowbrick/style/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/style/__pycache__/colors.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/style/__pycache__/palettes.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/style/__pycache__/rcmod.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/style/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/style/colors.py",
+    "Lib/site-packages/yellowbrick/style/palettes.py",
+    "Lib/site-packages/yellowbrick/style/rcmod.py",
+    "Lib/site-packages/yellowbrick/style/utils.py",
+    "Lib/site-packages/yellowbrick/target/__init__.py",
+    "Lib/site-packages/yellowbrick/target/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/target/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/target/__pycache__/binning.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/target/__pycache__/class_balance.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/target/__pycache__/feature_correlation.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/target/base.py",
+    "Lib/site-packages/yellowbrick/target/binning.py",
+    "Lib/site-packages/yellowbrick/target/class_balance.py",
+    "Lib/site-packages/yellowbrick/target/feature_correlation.py",
+    "Lib/site-packages/yellowbrick/text/__init__.py",
+    "Lib/site-packages/yellowbrick/text/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/correlation.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/dispersion.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/freqdist.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/postag.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/tsne.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/__pycache__/umap_vis.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/text/base.py",
+    "Lib/site-packages/yellowbrick/text/correlation.py",
+    "Lib/site-packages/yellowbrick/text/dispersion.py",
+    "Lib/site-packages/yellowbrick/text/freqdist.py",
+    "Lib/site-packages/yellowbrick/text/postag.py",
+    "Lib/site-packages/yellowbrick/text/tsne.py",
+    "Lib/site-packages/yellowbrick/text/umap_vis.py",
+    "Lib/site-packages/yellowbrick/utils/__init__.py",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/decorators.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/helpers.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/kneed.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/nan_warnings.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/target.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/timer.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/types.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/__pycache__/wrapper.cpython-312.pyc",
+    "Lib/site-packages/yellowbrick/utils/decorators.py",
+    "Lib/site-packages/yellowbrick/utils/helpers.py",
+    "Lib/site-packages/yellowbrick/utils/kneed.py",
+    "Lib/site-packages/yellowbrick/utils/nan_warnings.py",
+    "Lib/site-packages/yellowbrick/utils/target.py",
+    "Lib/site-packages/yellowbrick/utils/timer.py",
+    "Lib/site-packages/yellowbrick/utils/types.py",
+    "Lib/site-packages/yellowbrick/utils/wrapper.py",
+    "Lib/site-packages/yellowbrick/version.py",
+    ".nonadmin"
+  ],
+  "fn": "yellowbrick-1.5-py312haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\filip\\miniconda3\\pkgs\\yellowbrick-1.5-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "9c3081fd529183eb1dfb0c1e960b3ed0",
+  "name": "yellowbrick",
+  "package_tarball_full_path": "C:\\Users\\filip\\miniconda3\\pkgs\\yellowbrick-1.5-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "038fd48778b884f159d239cc2a63b04ae290bfe51075dc8c97801c024e0a4658",
+        "sha256_in_prefix": "038fd48778b884f159d239cc2a63b04ae290bfe51075dc8c97801c024e0a4658",
+        "size_in_bytes": 11359
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d23a5d2efd38bae5e2d9c739e10f5b0227698f7ac69a5731289d1d3b10607965",
+        "sha256_in_prefix": "d23a5d2efd38bae5e2d9c739e10f5b0227698f7ac69a5731289d1d3b10607965",
+        "size_in_bytes": 7754
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1e8d9cbc3b18402cd6f9fd9a48974f9588c7756ffe00a8b82229f36eba8a18dc",
+        "sha256_in_prefix": "1e8d9cbc3b18402cd6f9fd9a48974f9588c7756ffe00a8b82229f36eba8a18dc",
+        "size_in_bytes": 14944
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "255c5e0edec363a2ec42de45496a2398d33891e291621b6c448ea04566ea5d11",
+        "sha256_in_prefix": "255c5e0edec363a2ec42de45496a2398d33891e291621b6c448ea04566ea5d11",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick-1.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1880ace5aa4c1710afcc0dfb1fdec6255876b6c5ca47405287a048d4beabf3f8",
+        "sha256_in_prefix": "1880ace5aa4c1710afcc0dfb1fdec6255876b6c5ca47405287a048d4beabf3f8",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "95221c2bfbdcacf3bf5fdbf992da33b00f7387f3bee5874e21b2b1ce91f6bb91",
+        "sha256_in_prefix": "95221c2bfbdcacf3bf5fdbf992da33b00f7387f3bee5874e21b2b1ce91f6bb91",
+        "size_in_bytes": 1826
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "effb4c66b7e4e02b0d23a503cbb9e0be3c290e016fdc2facfa3042924a3a2e16",
+        "sha256_in_prefix": "effb4c66b7e4e02b0d23a503cbb9e0be3c290e016fdc2facfa3042924a3a2e16",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/anscombe.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "99f02590f65fb980debb3962ac6d24567334b85759bd6d3721eff87f16b8b628",
+        "sha256_in_prefix": "99f02590f65fb980debb3962ac6d24567334b85759bd6d3721eff87f16b8b628",
+        "size_in_bytes": 2293
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d369e92bcb0ee59b832a91fd6aba15bf32e215882d07c5826147678ee0344f8",
+        "sha256_in_prefix": "7d369e92bcb0ee59b832a91fd6aba15bf32e215882d07c5826147678ee0344f8",
+        "size_in_bytes": 24581
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/bestfit.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb643f5e23f0f5e947a0c5e3b5792a05c0226e8f37566764780d3f2580c0406f",
+        "sha256_in_prefix": "cb643f5e23f0f5e947a0c5e3b5792a05c0226e8f37566764780d3f2580c0406f",
+        "size_in_bytes": 9675
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/datasaurus.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0eace655714f45dd2d828df3831adf0c34a737c0f71ad62fe447c74c8d14a08b",
+        "sha256_in_prefix": "0eace655714f45dd2d828df3831adf0c34a737c0f71ad62fe447c74c8d14a08b",
+        "size_in_bytes": 11978
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/download.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "800c33a117b5f3e1ea69f1e6e825be540fa7d71d0393538435b594f1bdd147ff",
+        "sha256_in_prefix": "800c33a117b5f3e1ea69f1e6e825be540fa7d71d0393538435b594f1bdd147ff",
+        "size_in_bytes": 3167
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/draw.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa5384fdefe073959771ad9fada80ac8ad3df8a06711206bdc7f0eb058649319",
+        "sha256_in_prefix": "fa5384fdefe073959771ad9fada80ac8ad3df8a06711206bdc7f0eb058649319",
+        "size_in_bytes": 7335
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1136d6da0ea0140196993f0eb8ed84ca2ca2ea4c87709895c5413d334262ff4a",
+        "sha256_in_prefix": "1136d6da0ea0140196993f0eb8ed84ca2ca2ea4c87709895c5413d334262ff4a",
+        "size_in_bytes": 3755
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/pipeline.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1de512da73454f3de84d5929770c29282acea3494834271da16c2576f0c0b6fa",
+        "sha256_in_prefix": "1de512da73454f3de84d5929770c29282acea3494834271da16c2576f0c0b6fa",
+        "size_in_bytes": 4432
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "81edc745d00dbff23c57552292be63382f05111d2a6a7f95103b09ccc0cc4228",
+        "sha256_in_prefix": "81edc745d00dbff23c57552292be63382f05111d2a6a7f95103b09ccc0cc4228",
+        "size_in_bytes": 1244
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/anscombe.py",
+        "path_type": "hardlink",
+        "sha256": "a4a2b175e779e05e2d57d4798f31159a611e94c021b51223f7234497e4f77fb0",
+        "sha256_in_prefix": "a4a2b175e779e05e2d57d4798f31159a611e94c021b51223f7234497e4f77fb0",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/base.py",
+        "path_type": "hardlink",
+        "sha256": "4db4d4840a7b38f7359fc58cf50b59eb12c2937a508111d2d35da4da73c4d1e7",
+        "sha256_in_prefix": "4db4d4840a7b38f7359fc58cf50b59eb12c2937a508111d2d35da4da73c4d1e7",
+        "size_in_bytes": 21940
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/bestfit.py",
+        "path_type": "hardlink",
+        "sha256": "e39d007b859bcd17873fdedc5490b03651930ff2f8e2fb61979043403c983eaf",
+        "sha256_in_prefix": "e39d007b859bcd17873fdedc5490b03651930ff2f8e2fb61979043403c983eaf",
+        "size_in_bytes": 9446
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "242014b055169bd90bcf323773406bb6575317c1891d35f170f49ab8ecf71f59",
+        "sha256_in_prefix": "242014b055169bd90bcf323773406bb6575317c1891d35f170f49ab8ecf71f59",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0138fd3eb40e21bc59ca134bfadd7654dab1d19529bc112025f9d25788ece74e",
+        "sha256_in_prefix": "0138fd3eb40e21bc59ca134bfadd7654dab1d19529bc112025f9d25788ece74e",
+        "size_in_bytes": 912
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6f8b31f0bf36197f9bf0d2425dde1872790b4433f72c1fa0515bcbdb61d229f",
+        "sha256_in_prefix": "b6f8b31f0bf36197f9bf0d2425dde1872790b4433f72c1fa0515bcbdb61d229f",
+        "size_in_bytes": 12545
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/class_prediction_error.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fc7dbaadba9fd719ed27968c0da98e32514e8924f98fdf39e4f94e871739670",
+        "sha256_in_prefix": "5fc7dbaadba9fd719ed27968c0da98e32514e8924f98fdf39e4f94e871739670",
+        "size_in_bytes": 13107
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/classification_report.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fcf39b07f86acd20f5ae9c57acad4f55b26f1988550f45c9c7f427c4fa51ee61",
+        "sha256_in_prefix": "fcf39b07f86acd20f5ae9c57acad4f55b26f1988550f45c9c7f427c4fa51ee61",
+        "size_in_bytes": 17158
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/confusion_matrix.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "69e482e0ba5159259de7c7e6694deb293906b415ab8cf277d51e26edf39cc5ef",
+        "sha256_in_prefix": "69e482e0ba5159259de7c7e6694deb293906b415ab8cf277d51e26edf39cc5ef",
+        "size_in_bytes": 17120
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/prcurve.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ae02c18be8f22c34962f04f6cbf47b6a6e4baf51206fa6dcae50ad37ac4d97e",
+        "sha256_in_prefix": "4ae02c18be8f22c34962f04f6cbf47b6a6e4baf51206fa6dcae50ad37ac4d97e",
+        "size_in_bytes": 26314
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/rocauc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5acc1e4188feeff6d8f81b07a258b30afd4c848195d48a198f37ccdcf26026b6",
+        "sha256_in_prefix": "5acc1e4188feeff6d8f81b07a258b30afd4c848195d48a198f37ccdcf26026b6",
+        "size_in_bytes": 28249
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/__pycache__/threshold.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e6d17246ce68e560e73df79819e71d01ad520ad6493ab800605e4fea3bec864",
+        "sha256_in_prefix": "5e6d17246ce68e560e73df79819e71d01ad520ad6493ab800605e4fea3bec864",
+        "size_in_bytes": 26300
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/base.py",
+        "path_type": "hardlink",
+        "sha256": "1a171713b0e37af6b8fe33972f93df5efe31d202a43d899a36ff9ad12a272724",
+        "sha256_in_prefix": "1a171713b0e37af6b8fe33972f93df5efe31d202a43d899a36ff9ad12a272724",
+        "size_in_bytes": 13001
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/class_prediction_error.py",
+        "path_type": "hardlink",
+        "sha256": "0f0bcc5e29cc5671f8213e8f4f52a098b197cf9de6858c40b5a3b729499c162c",
+        "sha256_in_prefix": "0f0bcc5e29cc5671f8213e8f4f52a098b197cf9de6858c40b5a3b729499c162c",
+        "size_in_bytes": 13356
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/classification_report.py",
+        "path_type": "hardlink",
+        "sha256": "17837180d6c274a5ea468ac7f553fed113bd298ef56aaa25afdc3d2d5defcda9",
+        "sha256_in_prefix": "17837180d6c274a5ea468ac7f553fed113bd298ef56aaa25afdc3d2d5defcda9",
+        "size_in_bytes": 17013
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/confusion_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "c302a15461fae7ed1d446ee34d0fdb6a13120f8284c96ff81bb3b08aa4828d7f",
+        "sha256_in_prefix": "c302a15461fae7ed1d446ee34d0fdb6a13120f8284c96ff81bb3b08aa4828d7f",
+        "size_in_bytes": 18039
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/prcurve.py",
+        "path_type": "hardlink",
+        "sha256": "2082e39542ba198385f51887a469614d10ed5f0c271542b08fc4a1490c20decf",
+        "sha256_in_prefix": "2082e39542ba198385f51887a469614d10ed5f0c271542b08fc4a1490c20decf",
+        "size_in_bytes": 26248
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/rocauc.py",
+        "path_type": "hardlink",
+        "sha256": "b1c84bceefc064dd320f5c0cb9106c23bcb10ab876f3ac045ce8abaf70038877",
+        "sha256_in_prefix": "b1c84bceefc064dd320f5c0cb9106c23bcb10ab876f3ac045ce8abaf70038877",
+        "size_in_bytes": 29053
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/classifier/threshold.py",
+        "path_type": "hardlink",
+        "sha256": "f079cc581816b7c724deb0fd2d75965621ca57b269caf5e6ca71f794c1b4b914",
+        "sha256_in_prefix": "f079cc581816b7c724deb0fd2d75965621ca57b269caf5e6ca71f794c1b4b914",
+        "size_in_bytes": 26089
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe232da57b748497b3ea7d00dc63b03b11854a8a6e650994f0f21fa4333f41ca",
+        "sha256_in_prefix": "fe232da57b748497b3ea7d00dc63b03b11854a8a6e650994f0f21fa4333f41ca",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ebf593e506fe6b3f27a904209febb326fb93f5b492ceb02d3bfcb423b82d8ea",
+        "sha256_in_prefix": "9ebf593e506fe6b3f27a904209febb326fb93f5b492ceb02d3bfcb423b82d8ea",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccc8639e15322671aae6fadc60f3ba3b603f7858c79a34dfdcb57e9059329972",
+        "sha256_in_prefix": "ccc8639e15322671aae6fadc60f3ba3b603f7858c79a34dfdcb57e9059329972",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/__pycache__/elbow.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c847b44803a666b86e359ed002d01ecb7226976c97a474d25f99989b755144e9",
+        "sha256_in_prefix": "c847b44803a666b86e359ed002d01ecb7226976c97a474d25f99989b755144e9",
+        "size_in_bytes": 22202
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/__pycache__/icdm.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ba13680b1dc0580c4438bea2fb732a7a3a7d673c0e4a05c58b2721e90cb931a",
+        "sha256_in_prefix": "5ba13680b1dc0580c4438bea2fb732a7a3a7d673c0e4a05c58b2721e90cb931a",
+        "size_in_bytes": 22130
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/__pycache__/silhouette.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "67a43a09b0de23e0d7d269ab24e9836e97492534bba23b0a1f7cd534db896e9a",
+        "sha256_in_prefix": "67a43a09b0de23e0d7d269ab24e9836e97492534bba23b0a1f7cd534db896e9a",
+        "size_in_bytes": 12200
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/base.py",
+        "path_type": "hardlink",
+        "sha256": "94ec81e9831dccae8d959b7daaea501d301f7d27d0f005af26073094b4d9d202",
+        "sha256_in_prefix": "94ec81e9831dccae8d959b7daaea501d301f7d27d0f005af26073094b4d9d202",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/elbow.py",
+        "path_type": "hardlink",
+        "sha256": "9d32cbcf91ae663bce1b0ff6360263d95cb333dc4d284bd21b31e6ac70f4a4f4",
+        "sha256_in_prefix": "9d32cbcf91ae663bce1b0ff6360263d95cb333dc4d284bd21b31e6ac70f4a4f4",
+        "size_in_bytes": 21214
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/icdm.py",
+        "path_type": "hardlink",
+        "sha256": "8614190a14c344434858f898ff5ba9f62b809c40077eda8f0afd638658617065",
+        "sha256_in_prefix": "8614190a14c344434858f898ff5ba9f62b809c40077eda8f0afd638658617065",
+        "size_in_bytes": 21367
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/cluster/silhouette.py",
+        "path_type": "hardlink",
+        "sha256": "071c2eff2a570538df3eb438e9ebf98d31482506aa64ca41ad638b9ded92482e",
+        "sha256_in_prefix": "071c2eff2a570538df3eb438e9ebf98d31482506aa64ca41ad638b9ded92482e",
+        "size_in_bytes": 12564
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4be398df4c39288495f0feab9d3232db642a5e5c5861d936850830e8bd4caec7",
+        "sha256_in_prefix": "4be398df4c39288495f0feab9d3232db642a5e5c5861d936850830e8bd4caec7",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f072eae28b83b8d777627b65106936da3e0c27e5dfb9b7d7703d7434cc0ff32d",
+        "sha256_in_prefix": "f072eae28b83b8d777627b65106936da3e0c27e5dfb9b7d7703d7434cc0ff32d",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/__pycache__/prepredict.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "227ac19039baf144e8e2b3998c39ee713bbf022ec476c5008e10c4bfcd967cfd",
+        "sha256_in_prefix": "227ac19039baf144e8e2b3998c39ee713bbf022ec476c5008e10c4bfcd967cfd",
+        "size_in_bytes": 4790
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/__pycache__/scatter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "48b2147722f02b95197b107d762bcd898a9c71c764eb683cd06f3bd6ef513bdc",
+        "sha256_in_prefix": "48b2147722f02b95197b107d762bcd898a9c71c764eb683cd06f3bd6ef513bdc",
+        "size_in_bytes": 11752
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/__pycache__/wrapper.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "29898f8b104ac6b89a3789c48ade3eef4cc6b0595e4ddd74f7c150a8ac110a9f",
+        "sha256_in_prefix": "29898f8b104ac6b89a3789c48ade3eef4cc6b0595e4ddd74f7c150a8ac110a9f",
+        "size_in_bytes": 4437
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/classifier/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "124f76e7cef79bdb2a22abe94d4179dea97bd0b4cb2bf9d5db561a11ae247427",
+        "sha256_in_prefix": "124f76e7cef79bdb2a22abe94d4179dea97bd0b4cb2bf9d5db561a11ae247427",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/classifier/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4898856a5a17b68d50ace1c5527c6af929f1979741b77632466c1793b395da91",
+        "sha256_in_prefix": "4898856a5a17b68d50ace1c5527c6af929f1979741b77632466c1793b395da91",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/classifier/__pycache__/boundaries.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f849e6a546bd3245b610eb4a5c3e682320ec42c7348c251baad73ac8f8976b2",
+        "sha256_in_prefix": "1f849e6a546bd3245b610eb4a5c3e682320ec42c7348c251baad73ac8f8976b2",
+        "size_in_bytes": 20343
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/classifier/boundaries.py",
+        "path_type": "hardlink",
+        "sha256": "6fd280af405271c86921b41d1f8630b82dddc14631aa507812666e9c8167d428",
+        "sha256_in_prefix": "6fd280af405271c86921b41d1f8630b82dddc14631aa507812666e9c8167d428",
+        "size_in_bytes": 18893
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "730d93b401154ba51e36d83f4f5f1733e63b5aa6a14811f95a18fa68460d7945",
+        "sha256_in_prefix": "730d93b401154ba51e36d83f4f5f1733e63b5aa6a14811f95a18fa68460d7945",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1c2a4a8b0a397e6f0007c6d761054dbe0226c2560cc26657b169b9d04be3f8a",
+        "sha256_in_prefix": "d1c2a4a8b0a397e6f0007c6d761054dbe0226c2560cc26657b169b9d04be3f8a",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/bar.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d9ae9f1fc51a2a8e5555c0501faa64a8d36b5776f12a320ce1e7538b74d95e1",
+        "sha256_in_prefix": "5d9ae9f1fc51a2a8e5555c0501faa64a8d36b5776f12a320ce1e7538b74d95e1",
+        "size_in_bytes": 9681
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2f51b723ba8076fadfa6b0598d51c5ba59ba7ddde54807dbec889eca842ab68",
+        "sha256_in_prefix": "f2f51b723ba8076fadfa6b0598d51c5ba59ba7ddde54807dbec889eca842ab68",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/__pycache__/dispersion.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cef7ea1edaf0626bccec09a8bc7222db0c2ab8de050cab8764a44e55cb06998",
+        "sha256_in_prefix": "1cef7ea1edaf0626bccec09a8bc7222db0c2ab8de050cab8764a44e55cb06998",
+        "size_in_bytes": 8894
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/bar.py",
+        "path_type": "hardlink",
+        "sha256": "20a03d9b50f331b1dd7d85404b9a5a3d82b468d24113d504106be0b8bdb842a8",
+        "sha256_in_prefix": "20a03d9b50f331b1dd7d85404b9a5a3d82b468d24113d504106be0b8bdb842a8",
+        "size_in_bytes": 8829
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/base.py",
+        "path_type": "hardlink",
+        "sha256": "11aebc5d2238ce9fa60775012662b6d8dd26970fd28099f912e00d20925e2dca",
+        "sha256_in_prefix": "11aebc5d2238ce9fa60775012662b6d8dd26970fd28099f912e00d20925e2dca",
+        "size_in_bytes": 2514
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/missing/dispersion.py",
+        "path_type": "hardlink",
+        "sha256": "6550a3abc686c68f509418d1d496a5a0ef15a93f290f2ec97c53102b56742c4a",
+        "sha256_in_prefix": "6550a3abc686c68f509418d1d496a5a0ef15a93f290f2ec97c53102b56742c4a",
+        "size_in_bytes": 7739
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/prepredict.py",
+        "path_type": "hardlink",
+        "sha256": "c8ed6f48a2e4a80c095d74cb3c8df1f13648f8774fd857e8079ec93f211ed667",
+        "sha256_in_prefix": "c8ed6f48a2e4a80c095d74cb3c8df1f13648f8774fd857e8079ec93f211ed667",
+        "size_in_bytes": 4140
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/scatter.py",
+        "path_type": "hardlink",
+        "sha256": "c8c0d921588ad9619d9122f5f8c1d841571616ce5d9df06cec2c42d5d0f5af15",
+        "sha256_in_prefix": "c8c0d921588ad9619d9122f5f8c1d841571616ce5d9df06cec2c42d5d0f5af15",
+        "size_in_bytes": 11862
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/statsmodels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d0fd94d01f063639e89a16b3241e187661d1c2c04d78709fa5ff37416c967ca",
+        "sha256_in_prefix": "3d0fd94d01f063639e89a16b3241e187661d1c2c04d78709fa5ff37416c967ca",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/statsmodels/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a808667dd8c8ee9f4f283a06a02254ea4386258a3c6197d87eea6ff9039f08ee",
+        "sha256_in_prefix": "a808667dd8c8ee9f4f283a06a02254ea4386258a3c6197d87eea6ff9039f08ee",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/statsmodels/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d68ea8dd8c1f7f0ce2a58ecde613dbbcb2ac9f9ccae2ec46569ccaaeaf1a4c47",
+        "sha256_in_prefix": "d68ea8dd8c1f7f0ce2a58ecde613dbbcb2ac9f9ccae2ec46569ccaaeaf1a4c47",
+        "size_in_bytes": 2565
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/statsmodels/base.py",
+        "path_type": "hardlink",
+        "sha256": "4fa02fbedd20de42f5ff9035497f9cce12577f565eac90286d7e5339fc150b6d",
+        "sha256_in_prefix": "4fa02fbedd20de42f5ff9035497f9cce12577f565eac90286d7e5339fc150b6d",
+        "size_in_bytes": 2620
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/contrib/wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "a62461189521ebb7987fdd38a05cf99d36961efb6e4b38d048e74c7da1304d75",
+        "sha256_in_prefix": "a62461189521ebb7987fdd38a05cf99d36961efb6e4b38d048e74c7da1304d75",
+        "size_in_bytes": 4741
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasaurus.py",
+        "path_type": "hardlink",
+        "sha256": "a1f5335b61ee224c001d4bf7682f787414c07c6eb262c26a040d8be168017080",
+        "sha256_in_prefix": "a1f5335b61ee224c001d4bf7682f787414c07c6eb262c26a040d8be168017080",
+        "size_in_bytes": 33969
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b518356df052971dc1e5f900f0594a7ba8a6d389b3d21e428d70f368ebea3002",
+        "sha256_in_prefix": "b518356df052971dc1e5f900f0594a7ba8a6d389b3d21e428d70f368ebea3002",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d28ac362de7e8535d806b17b6f1fb62eecabd97444f0bc600ab8be589e50dac4",
+        "sha256_in_prefix": "d28ac362de7e8535d806b17b6f1fb62eecabd97444f0bc600ab8be589e50dac4",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "db9ffea6cfdb7c42514cc65a66bea62d5c7e2babad07e97fd58186116cf7e48e",
+        "sha256_in_prefix": "db9ffea6cfdb7c42514cc65a66bea62d5c7e2babad07e97fd58186116cf7e48e",
+        "size_in_bytes": 13664
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__pycache__/download.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "591edf122e7a9c1a7758558654f34d15142086b5bd7d11cfae58cf83c09b31f3",
+        "sha256_in_prefix": "591edf122e7a9c1a7758558654f34d15142086b5bd7d11cfae58cf83c09b31f3",
+        "size_in_bytes": 3139
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__pycache__/loaders.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "176f81d01b66e7d7da2d2f27fab867fc7b4025966bbd4da78c6c6bc406073c80",
+        "sha256_in_prefix": "176f81d01b66e7d7da2d2f27fab867fc7b4025966bbd4da78c6c6bc406073c80",
+        "size_in_bytes": 22161
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__pycache__/path.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3657130d375b84a3346de5b9212fcbc3c838639502d42dfe22814742f691f390",
+        "sha256_in_prefix": "3657130d375b84a3346de5b9212fcbc3c838639502d42dfe22814742f691f390",
+        "size_in_bytes": 8449
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/__pycache__/signature.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "15f3920f62b89ee7cf4c2b028fc7ac78e7a2fcfe7ded4e3f728b91e1848ad6f5",
+        "sha256_in_prefix": "15f3920f62b89ee7cf4c2b028fc7ac78e7a2fcfe7ded4e3f728b91e1848ad6f5",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/base.py",
+        "path_type": "hardlink",
+        "sha256": "7913b375a93683d9d1fc6c2307f9c07cb6bac6dd58941795f63c3e0e7467ada4",
+        "sha256_in_prefix": "7913b375a93683d9d1fc6c2307f9c07cb6bac6dd58941795f63c3e0e7467ada4",
+        "size_in_bytes": 11236
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/download.py",
+        "path_type": "hardlink",
+        "sha256": "210bab3c9b5f26ac8f413667b36604a45268e693a3b5d3a2be39f4c01f2d97e0",
+        "sha256_in_prefix": "210bab3c9b5f26ac8f413667b36604a45268e693a3b5d3a2be39f4c01f2d97e0",
+        "size_in_bytes": 3385
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/loaders.py",
+        "path_type": "hardlink",
+        "sha256": "24b77a7076c78f58f97ba91faf486e76ea7153a085edc97ab2babb18ec2e6185",
+        "sha256_in_prefix": "24b77a7076c78f58f97ba91faf486e76ea7153a085edc97ab2babb18ec2e6185",
+        "size_in_bytes": 22222
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/manifest.json",
+        "path_type": "hardlink",
+        "sha256": "9c80fc3858d662b139c0c7daa464e37aeff2407fe480cedd2d6bddfddb306838",
+        "sha256_in_prefix": "9c80fc3858d662b139c0c7daa464e37aeff2407fe480cedd2d6bddfddb306838",
+        "size_in_bytes": 2136
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/path.py",
+        "path_type": "hardlink",
+        "sha256": "13aa9f2c5a8aec7f8a1c41e4d679f328865642d884ba1339b9829c03348896fe",
+        "sha256_in_prefix": "13aa9f2c5a8aec7f8a1c41e4d679f328865642d884ba1339b9829c03348896fe",
+        "size_in_bytes": 7888
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/datasets/signature.py",
+        "path_type": "hardlink",
+        "sha256": "8a9e5b6c7584cdd4c926d3d3c733c2c3978b300b9a0bab378092c165adb6960e",
+        "sha256_in_prefix": "8a9e5b6c7584cdd4c926d3d3c733c2c3978b300b9a0bab378092c165adb6960e",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/download.py",
+        "path_type": "hardlink",
+        "sha256": "5abeac2fc736548f83a49f1c8556e0df61018fc46b6bd21c144c57988054362b",
+        "sha256_in_prefix": "5abeac2fc736548f83a49f1c8556e0df61018fc46b6bd21c144c57988054362b",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/draw.py",
+        "path_type": "hardlink",
+        "sha256": "2397805af6c1292287af64054eef660a912f02923d8fbf5808256a349415b531",
+        "sha256_in_prefix": "2397805af6c1292287af64054eef660a912f02923d8fbf5808256a349415b531",
+        "size_in_bytes": 6849
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "bf1d799e4e1b647488bfd10ad9872cb2d52de34043d34271b96354b4e5261382",
+        "sha256_in_prefix": "bf1d799e4e1b647488bfd10ad9872cb2d52de34043d34271b96354b4e5261382",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "49e40085370aa52d33cd18be8dc2c27f830705a8bb956d2b3ca4a317d440ac9c",
+        "sha256_in_prefix": "49e40085370aa52d33cd18be8dc2c27f830705a8bb956d2b3ca4a317d440ac9c",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "69d73e734dba68cf1e90631bcd77a58de0bc164c53d472c8cf169e87b35bb265",
+        "sha256_in_prefix": "69d73e734dba68cf1e90631bcd77a58de0bc164c53d472c8cf169e87b35bb265",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "04da8e8fce2ca680d026a64aeb8e7362a05ff32dfb01de577408d8c4299810ba",
+        "sha256_in_prefix": "04da8e8fce2ca680d026a64aeb8e7362a05ff32dfb01de577408d8c4299810ba",
+        "size_in_bytes": 19953
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/decomposition.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "15d84a495878f6d04fec5f3a107a120992de662cd23e36cd31b81b4d8a05c2c2",
+        "sha256_in_prefix": "15d84a495878f6d04fec5f3a107a120992de662cd23e36cd31b81b4d8a05c2c2",
+        "size_in_bytes": 5735
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/jointplot.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbdff06d70d9cb5db68ed3dc34b99d6224266a166c5b0fcc2bd517a27e613f05",
+        "sha256_in_prefix": "dbdff06d70d9cb5db68ed3dc34b99d6224266a166c5b0fcc2bd517a27e613f05",
+        "size_in_bytes": 21758
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/manifold.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cb65ea1a7fa0648286eed89232c19f2e7da4f1b2e809187eb9e62c58680ce7d",
+        "sha256_in_prefix": "3cb65ea1a7fa0648286eed89232c19f2e7da4f1b2e809187eb9e62c58680ce7d",
+        "size_in_bytes": 23548
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/pca.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3005bfc20a33a93f18b561169705fdcefc34989d23151264608705ca434b041f",
+        "sha256_in_prefix": "3005bfc20a33a93f18b561169705fdcefc34989d23151264608705ca434b041f",
+        "size_in_bytes": 23900
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/pcoords.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6dc215b1754ad0dedc7167fb68109c4ed4bf3a146fd0df653c8c1fce789c6f66",
+        "sha256_in_prefix": "6dc215b1754ad0dedc7167fb68109c4ed4bf3a146fd0df653c8c1fce789c6f66",
+        "size_in_bytes": 19998
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/projection.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cef61ef5589353322ac8ae541e8ca9c0dc757ed2e8c4fff6156a7e52892bc4d",
+        "sha256_in_prefix": "5cef61ef5589353322ac8ae541e8ca9c0dc757ed2e8c4fff6156a7e52892bc4d",
+        "size_in_bytes": 14005
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/radviz.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "49abf7ca73e607eb692edbdddd342e7808e419907f7218ddead45d367712de5a",
+        "sha256_in_prefix": "49abf7ca73e607eb692edbdddd342e7808e419907f7218ddead45d367712de5a",
+        "size_in_bytes": 12912
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/__pycache__/rankd.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "095422e2d26b0098ab6a9d2a60a7059a3803ea2d095831dd07609f8814bf4717",
+        "sha256_in_prefix": "095422e2d26b0098ab6a9d2a60a7059a3803ea2d095831dd07609f8814bf4717",
+        "size_in_bytes": 20917
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/base.py",
+        "path_type": "hardlink",
+        "sha256": "2ec2214089e3ed6170e9af844d241ccb511c581b64e074f5e5f5dbe878286fa7",
+        "sha256_in_prefix": "2ec2214089e3ed6170e9af844d241ccb511c581b64e074f5e5f5dbe878286fa7",
+        "size_in_bytes": 19690
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/decomposition.py",
+        "path_type": "hardlink",
+        "sha256": "8431b2e7897cc7a10468bfe183967e46e6b549f7db6c8c1b365c026d255ced01",
+        "sha256_in_prefix": "8431b2e7897cc7a10468bfe183967e46e6b549f7db6c8c1b365c026d255ced01",
+        "size_in_bytes": 5093
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/jointplot.py",
+        "path_type": "hardlink",
+        "sha256": "10392dc75c3b5fc35a001ab4b4e946c7b3fc16b86c0c615c4c98cd6b0bf7bb92",
+        "sha256_in_prefix": "10392dc75c3b5fc35a001ab4b4e946c7b3fc16b86c0c615c4c98cd6b0bf7bb92",
+        "size_in_bytes": 21888
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/manifold.py",
+        "path_type": "hardlink",
+        "sha256": "8219d6cf5f28c6ac66912da145b70c4c0f2169d56050745b48c85baf063c7339",
+        "sha256_in_prefix": "8219d6cf5f28c6ac66912da145b70c4c0f2169d56050745b48c85baf063c7339",
+        "size_in_bytes": 24254
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/pca.py",
+        "path_type": "hardlink",
+        "sha256": "88fb39508cce1c05e6c82308bc92225fc52304bd978ed409699d9bd41dce878f",
+        "sha256_in_prefix": "88fb39508cce1c05e6c82308bc92225fc52304bd978ed409699d9bd41dce878f",
+        "size_in_bytes": 22996
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/pcoords.py",
+        "path_type": "hardlink",
+        "sha256": "5f318900a8dd44b90f224ad8bd5c4897d3453be4b91861613d5e59249dd2990e",
+        "sha256_in_prefix": "5f318900a8dd44b90f224ad8bd5c4897d3453be4b91861613d5e59249dd2990e",
+        "size_in_bytes": 19712
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/projection.py",
+        "path_type": "hardlink",
+        "sha256": "7cd78c58ac4a42423c214ffacd4bc850272168db0d42bcb7e89413a3580735d3",
+        "sha256_in_prefix": "7cd78c58ac4a42423c214ffacd4bc850272168db0d42bcb7e89413a3580735d3",
+        "size_in_bytes": 12617
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/radviz.py",
+        "path_type": "hardlink",
+        "sha256": "1c62006d1292c0c291596a0d2bc6bd7a09f6e7fc310b31fc0eb7557c0fcd0104",
+        "sha256_in_prefix": "1c62006d1292c0c291596a0d2bc6bd7a09f6e7fc310b31fc0eb7557c0fcd0104",
+        "size_in_bytes": 12638
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/features/rankd.py",
+        "path_type": "hardlink",
+        "sha256": "6fbae62b6e04da0734636698fc267d037b3a2aeb46b7b0187bc430489329300d",
+        "sha256_in_prefix": "6fbae62b6e04da0734636698fc267d037b3a2aeb46b7b0187bc430489329300d",
+        "size_in_bytes": 19347
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/gridsearch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfadb43cb7720e4b9ba4bd2029e2e2943f1afb40ccf6d0961b9304f164dbe181",
+        "sha256_in_prefix": "cfadb43cb7720e4b9ba4bd2029e2e2943f1afb40ccf6d0961b9304f164dbe181",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/gridsearch/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "15d39690f82be65585b1a0acfbd1e651e0df4f2e88755147a26921d9f86bc050",
+        "sha256_in_prefix": "15d39690f82be65585b1a0acfbd1e651e0df4f2e88755147a26921d9f86bc050",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/gridsearch/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0958807381da9ebc13367bc1d4a8ab95825f2b8afa1442762f95117e5f556506",
+        "sha256_in_prefix": "0958807381da9ebc13367bc1d4a8ab95825f2b8afa1442762f95117e5f556506",
+        "size_in_bytes": 7069
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/gridsearch/__pycache__/pcolor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ac4c3c7b0438f7a7ebbc22a873d725098837d38e193d5dc0cf4d255a42454e0",
+        "sha256_in_prefix": "3ac4c3c7b0438f7a7ebbc22a873d725098837d38e193d5dc0cf4d255a42454e0",
+        "size_in_bytes": 6668
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/gridsearch/base.py",
+        "path_type": "hardlink",
+        "sha256": "cafa6582c2d347820063d9bc51f8d52b17533a9c0e3c70fbd71accfd779382fa",
+        "sha256_in_prefix": "cafa6582c2d347820063d9bc51f8d52b17533a9c0e3c70fbd71accfd779382fa",
+        "size_in_bytes": 7173
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/gridsearch/pcolor.py",
+        "path_type": "hardlink",
+        "sha256": "2d2fb64b92ce03d0082ea964720ed93920d75893a9dea0de87fa8ad6df29f91f",
+        "sha256_in_prefix": "2d2fb64b92ce03d0082ea964720ed93920d75893a9dea0de87fa8ad6df29f91f",
+        "size_in_bytes": 5622
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "48193269be060f700bbcb20d2363e3795f247c1b25a48b7facdbbfe98c031a2e",
+        "sha256_in_prefix": "48193269be060f700bbcb20d2363e3795f247c1b25a48b7facdbbfe98c031a2e",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1e66315ed30002a6cfde571b5324e0ecf1aecb813611e94cd5cdadfdf282ec7",
+        "sha256_in_prefix": "e1e66315ed30002a6cfde571b5324e0ecf1aecb813611e94cd5cdadfdf282ec7",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/cross_validation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2874b6b8f561e1eab6c2277afa5bd61a8c49d6b2e93df644df4756f91b749fdb",
+        "sha256_in_prefix": "2874b6b8f561e1eab6c2277afa5bd61a8c49d6b2e93df644df4756f91b749fdb",
+        "size_in_bytes": 9521
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/dropping_curve.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0ab265eb213aeee6b32bd402814a963d6769bca47d2ef3219e3a363236d3998",
+        "sha256_in_prefix": "d0ab265eb213aeee6b32bd402814a963d6769bca47d2ef3219e3a363236d3998",
+        "size_in_bytes": 15575
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/importances.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "48b3e56cddf54480c4f89a97277140514d271ab34679e56c10aa3f52889d626e",
+        "sha256_in_prefix": "48b3e56cddf54480c4f89a97277140514d271ab34679e56c10aa3f52889d626e",
+        "size_in_bytes": 19014
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/learning_curve.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2ed18b06364195c0a5f4df76fbde213448a8a4eb9f8edb3c00225112300485a",
+        "sha256_in_prefix": "e2ed18b06364195c0a5f4df76fbde213448a8a4eb9f8edb3c00225112300485a",
+        "size_in_bytes": 15585
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/rfecv.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c00779ca735208bde14784ad8c25d343010c7d10c473c7e7375c5de94c0bb57",
+        "sha256_in_prefix": "1c00779ca735208bde14784ad8c25d343010c7d10c473c7e7375c5de94c0bb57",
+        "size_in_bytes": 13763
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/__pycache__/validation_curve.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4064c9a12e16098057a5abc318d9b5deb692c8bb28610c39d1e9976f1a1f4330",
+        "sha256_in_prefix": "4064c9a12e16098057a5abc318d9b5deb692c8bb28610c39d1e9976f1a1f4330",
+        "size_in_bytes": 14371
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/cross_validation.py",
+        "path_type": "hardlink",
+        "sha256": "a934c217a6560ac23eb5cb149241c6890dd32d13b9617bf2022d7393a9ecb09c",
+        "sha256_in_prefix": "a934c217a6560ac23eb5cb149241c6890dd32d13b9617bf2022d7393a9ecb09c",
+        "size_in_bytes": 8938
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/dropping_curve.py",
+        "path_type": "hardlink",
+        "sha256": "a2af95311a89f97ee892240580e6456fe6aecbcb79d088634e49c60a82dba639",
+        "sha256_in_prefix": "a2af95311a89f97ee892240580e6456fe6aecbcb79d088634e49c60a82dba639",
+        "size_in_bytes": 15251
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/importances.py",
+        "path_type": "hardlink",
+        "sha256": "fe4c48df4cc36c8d9902368aab6935519fa8e26b98b518e0b3dad80be00154c0",
+        "sha256_in_prefix": "fe4c48df4cc36c8d9902368aab6935519fa8e26b98b518e0b3dad80be00154c0",
+        "size_in_bytes": 18604
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/learning_curve.py",
+        "path_type": "hardlink",
+        "sha256": "3d57aa73c8b7e24692eb03595181d5f2392ed67f6f127124a574f8b39281d750",
+        "sha256_in_prefix": "3d57aa73c8b7e24692eb03595181d5f2392ed67f6f127124a574f8b39281d750",
+        "size_in_bytes": 16242
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/rfecv.py",
+        "path_type": "hardlink",
+        "sha256": "2c032996303f45ba3c0a961ae20d9edd661565bf6322671749d92c481f36b58c",
+        "sha256_in_prefix": "2c032996303f45ba3c0a961ae20d9edd661565bf6322671749d92c481f36b58c",
+        "size_in_bytes": 13375
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/model_selection/validation_curve.py",
+        "path_type": "hardlink",
+        "sha256": "94e2886a8047edc66099799203980e86c0670d9d391e9f2dd74cbba8c192d880",
+        "sha256_in_prefix": "94e2886a8047edc66099799203980e86c0670d9d391e9f2dd74cbba8c192d880",
+        "size_in_bytes": 14758
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "7eb824cb66de18f788f8cac2dd79423f28d6b028cd2f0b8c45f3d669dedbb63a",
+        "sha256_in_prefix": "7eb824cb66de18f788f8cac2dd79423f28d6b028cd2f0b8c45f3d669dedbb63a",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c203e3495db4d9e8f8a975cf77385fe2e4627dc1c2177f6e28653d73d616dabf",
+        "sha256_in_prefix": "c203e3495db4d9e8f8a975cf77385fe2e4627dc1c2177f6e28653d73d616dabf",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "11ff06dfebb57740037ece653e4ca0b5e4d7f86cc4f752ea6c0a585ab16652c6",
+        "sha256_in_prefix": "11ff06dfebb57740037ece653e4ca0b5e4d7f86cc4f752ea6c0a585ab16652c6",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__pycache__/alphas.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c37a7a091d0b379faabf0d0027d92775dadc6e36b5eb92ffdd3324bc291623b8",
+        "sha256_in_prefix": "c37a7a091d0b379faabf0d0027d92775dadc6e36b5eb92ffdd3324bc291623b8",
+        "size_in_bytes": 20444
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b97091d523fb971383dc542f50c270f176c336b049a5c900afe887d9b29790a4",
+        "sha256_in_prefix": "b97091d523fb971383dc542f50c270f176c336b049a5c900afe887d9b29790a4",
+        "size_in_bytes": 3806
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__pycache__/influence.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c36ac7e349c454b7957c447d789b229056092326cd72afbc28daf772bda4980a",
+        "sha256_in_prefix": "c36ac7e349c454b7957c447d789b229056092326cd72afbc28daf772bda4980a",
+        "size_in_bytes": 12160
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__pycache__/prediction_error.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "893fdde4074b97f9691e6a2cd8a9870dabc8058ebb925577937f1ed404f248ab",
+        "sha256_in_prefix": "893fdde4074b97f9691e6a2cd8a9870dabc8058ebb925577937f1ed404f248ab",
+        "size_in_bytes": 13826
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/__pycache__/residuals.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5454f36d2b82fea67d8c3f717e3704300c31d55337c18b16706e9d048da2b7f",
+        "sha256_in_prefix": "b5454f36d2b82fea67d8c3f717e3704300c31d55337c18b16706e9d048da2b7f",
+        "size_in_bytes": 19453
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/alphas.py",
+        "path_type": "hardlink",
+        "sha256": "f2af94128e3c499a4c325d24e27aa13a95dd4a4bd63ccb45faa3afca5027100d",
+        "sha256_in_prefix": "f2af94128e3c499a4c325d24e27aa13a95dd4a4bd63ccb45faa3afca5027100d",
+        "size_in_bytes": 19305
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/base.py",
+        "path_type": "hardlink",
+        "sha256": "2f28dc09f09616d2a98afa5489600eedff60fcee08053cdc536514ad3d992f3c",
+        "sha256_in_prefix": "2f28dc09f09616d2a98afa5489600eedff60fcee08053cdc536514ad3d992f3c",
+        "size_in_bytes": 3950
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/influence.py",
+        "path_type": "hardlink",
+        "sha256": "3d8de8759334cc662a45b70628edf424d4593db6173c50626625866b3b6da803",
+        "sha256_in_prefix": "3d8de8759334cc662a45b70628edf424d4593db6173c50626625866b3b6da803",
+        "size_in_bytes": 11895
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/prediction_error.py",
+        "path_type": "hardlink",
+        "sha256": "ea1bfd75cb80c10dc8c7d02aeb4675970eebf4c8758c29d1163b169486b1e6ac",
+        "sha256_in_prefix": "ea1bfd75cb80c10dc8c7d02aeb4675970eebf4c8758c29d1163b169486b1e6ac",
+        "size_in_bytes": 14642
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/regressor/residuals.py",
+        "path_type": "hardlink",
+        "sha256": "3ef435a9237704811d0dc6e77196a65f9ce66e2c52fc7787a9583fbcab679c3c",
+        "sha256_in_prefix": "3ef435a9237704811d0dc6e77196a65f9ce66e2c52fc7787a9583fbcab679c3c",
+        "size_in_bytes": 19569
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "02941a6ec6e013a973740da27261a9669aab177826a4458d3da84a96134a0de0",
+        "sha256_in_prefix": "02941a6ec6e013a973740da27261a9669aab177826a4458d3da84a96134a0de0",
+        "size_in_bytes": 620
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd19d2318661b86fe66051ed8e52fade3bdb1fae2e1ac64b0a07f1a3935a2956",
+        "sha256_in_prefix": "dd19d2318661b86fe66051ed8e52fade3bdb1fae2e1ac64b0a07f1a3935a2956",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/__pycache__/colors.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "420eeb9b405b18d1f1fc5b0fbde37234b5c3443d221202d7ff05a6301ffec938",
+        "sha256_in_prefix": "420eeb9b405b18d1f1fc5b0fbde37234b5c3443d221202d7ff05a6301ffec938",
+        "size_in_bytes": 6394
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/__pycache__/palettes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad14d3d7f2c7398bba13a15c21dfcfbeb7aff92e8c47ade824b18b6edff332a3",
+        "sha256_in_prefix": "ad14d3d7f2c7398bba13a15c21dfcfbeb7aff92e8c47ade824b18b6edff332a3",
+        "size_in_bytes": 25695
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/__pycache__/rcmod.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "94e9052e8a581cad4371b31b2c347ed813d3ab842b1b3b56b8f61a7e4bd85818",
+        "sha256_in_prefix": "94e9052e8a581cad4371b31b2c347ed813d3ab842b1b3b56b8f61a7e4bd85818",
+        "size_in_bytes": 13632
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab0ab4fa79d49a04307c6c4982524d3d6263a4b83b16c009b46c8765f38bf186",
+        "sha256_in_prefix": "ab0ab4fa79d49a04307c6c4982524d3d6263a4b83b16c009b46c8765f38bf186",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/colors.py",
+        "path_type": "hardlink",
+        "sha256": "2dee1488ff7f4fd6cd13002749ffbacd28fa1200e2e9bf49c5f940b9c44d2488",
+        "sha256_in_prefix": "2dee1488ff7f4fd6cd13002749ffbacd28fa1200e2e9bf49c5f940b9c44d2488",
+        "size_in_bytes": 6520
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/palettes.py",
+        "path_type": "hardlink",
+        "sha256": "fb245ae62a8435bf7b2cb26b1f1b7092cd610577d4425bfba5e73969e2b7f8fd",
+        "sha256_in_prefix": "fb245ae62a8435bf7b2cb26b1f1b7092cd610577d4425bfba5e73969e2b7f8fd",
+        "size_in_bytes": 44210
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/rcmod.py",
+        "path_type": "hardlink",
+        "sha256": "1f6be9ee43590873905cc97e44021f144fe37632eefafa77c42e2bc378f8c906",
+        "sha256_in_prefix": "1f6be9ee43590873905cc97e44021f144fe37632eefafa77c42e2bc378f8c906",
+        "size_in_bytes": 14167
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/style/utils.py",
+        "path_type": "hardlink",
+        "sha256": "17662c5973bdb8102721feab0af634de900e07bee16145c7c85b844727c71a6a",
+        "sha256_in_prefix": "17662c5973bdb8102721feab0af634de900e07bee16145c7c85b844727c71a6a",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f53e63836df8eb2f8e3fb07deba4ec2b18482d2ef329f887701819d33ce16aec",
+        "sha256_in_prefix": "f53e63836df8eb2f8e3fb07deba4ec2b18482d2ef329f887701819d33ce16aec",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb88a6d930ba5468aa373c8f68a7a6331fa1590755f9f8c786af2302de7d87a3",
+        "sha256_in_prefix": "bb88a6d930ba5468aa373c8f68a7a6331fa1590755f9f8c786af2302de7d87a3",
+        "size_in_bytes": 782
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "12bb19175619f058cb17adabb8ab9af2d6c984d73c865b33b980c9e4c8c5ddc3",
+        "sha256_in_prefix": "12bb19175619f058cb17adabb8ab9af2d6c984d73c865b33b980c9e4c8c5ddc3",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/__pycache__/binning.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cc78225b7df1e84702e4ba51052a25244e9c0792ad82153898e232cb439904d",
+        "sha256_in_prefix": "6cc78225b7df1e84702e4ba51052a25244e9c0792ad82153898e232cb439904d",
+        "size_in_bytes": 5997
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/__pycache__/class_balance.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "23981d61541e3688bf0c0b7b4c776d58e0806e230e566bf344e917df02bac9a2",
+        "sha256_in_prefix": "23981d61541e3688bf0c0b7b4c776d58e0806e230e566bf344e917df02bac9a2",
+        "size_in_bytes": 11943
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/__pycache__/feature_correlation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d7ea018a53bc9c48b18fc4cc9e1a6eb5eee343940e5c82b9e43b3850e105573",
+        "sha256_in_prefix": "3d7ea018a53bc9c48b18fc4cc9e1a6eb5eee343940e5c82b9e43b3850e105573",
+        "size_in_bytes": 12259
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/base.py",
+        "path_type": "hardlink",
+        "sha256": "18a818cbafa049bb2a797b2322aa590c1be5f77dc3cbe9a65548abe80ad5ab30",
+        "sha256_in_prefix": "18a818cbafa049bb2a797b2322aa590c1be5f77dc3cbe9a65548abe80ad5ab30",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/binning.py",
+        "path_type": "hardlink",
+        "sha256": "ff0f3cc0a7d5ab205206ff8fc55ae55601bbe26ae522ef22ce6552a46f388be4",
+        "sha256_in_prefix": "ff0f3cc0a7d5ab205206ff8fc55ae55601bbe26ae522ef22ce6552a46f388be4",
+        "size_in_bytes": 5615
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/class_balance.py",
+        "path_type": "hardlink",
+        "sha256": "91a45e61d632465951f57684bbd89b6549ee9564341e8f481ae71bac43125b84",
+        "sha256_in_prefix": "91a45e61d632465951f57684bbd89b6549ee9564341e8f481ae71bac43125b84",
+        "size_in_bytes": 11516
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/target/feature_correlation.py",
+        "path_type": "hardlink",
+        "sha256": "a119f258b27855d80d8a62605f7cb30a8bb1985f21b4f620dab0c986ee6a0bd2",
+        "sha256_in_prefix": "a119f258b27855d80d8a62605f7cb30a8bb1985f21b4f620dab0c986ee6a0bd2",
+        "size_in_bytes": 11670
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e5f0420540acc3765ff66f76b42be6f2b440aec30903831c6e8672cbf4809d47",
+        "sha256_in_prefix": "e5f0420540acc3765ff66f76b42be6f2b440aec30903831c6e8672cbf4809d47",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f81e2a4ce0a5444eca8df406df0420c92470e2c289817788035a6817a013b19",
+        "sha256_in_prefix": "0f81e2a4ce0a5444eca8df406df0420c92470e2c289817788035a6817a013b19",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8a9b9a879be8e8c3e7a42a85e82c72417287eca08a7543ea5261acf85cb22ab",
+        "sha256_in_prefix": "c8a9b9a879be8e8c3e7a42a85e82c72417287eca08a7543ea5261acf85cb22ab",
+        "size_in_bytes": 4314
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/correlation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "27c6669770af6ba01b7a969013c4d25b027ef52a1da297ee80b2043a336db0a8",
+        "sha256_in_prefix": "27c6669770af6ba01b7a969013c4d25b027ef52a1da297ee80b2043a336db0a8",
+        "size_in_bytes": 13535
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/dispersion.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c92de20beb77a0a1829259297557cf1186b3bffe9437af73bd710a19684a752d",
+        "sha256_in_prefix": "c92de20beb77a0a1829259297557cf1186b3bffe9437af73bd710a19684a752d",
+        "size_in_bytes": 15274
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/freqdist.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e56e3de43fb9140548b86ba2bf966d06b0d388e0edf46a17410609ef192a8a7",
+        "sha256_in_prefix": "3e56e3de43fb9140548b86ba2bf966d06b0d388e0edf46a17410609ef192a8a7",
+        "size_in_bytes": 11212
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/postag.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a06bf2464ee8422973b844486853b04e8945dc4cdb71d47da926285bdb2e576",
+        "sha256_in_prefix": "0a06bf2464ee8422973b844486853b04e8945dc4cdb71d47da926285bdb2e576",
+        "size_in_bytes": 24070
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/tsne.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c665c0ce574134929c5828d44c441010cc7320f89cfb5389045e264499e71651",
+        "sha256_in_prefix": "c665c0ce574134929c5828d44c441010cc7320f89cfb5389045e264499e71651",
+        "size_in_bytes": 15511
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/__pycache__/umap_vis.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f626b2f0a6499c2e2b5a166dfd947ac4f9e5f6931aedb7d11f482a0f1050ce43",
+        "sha256_in_prefix": "f626b2f0a6499c2e2b5a166dfd947ac4f9e5f6931aedb7d11f482a0f1050ce43",
+        "size_in_bytes": 13855
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/base.py",
+        "path_type": "hardlink",
+        "sha256": "ae4ea5246ecf05093e50dc8d1f059e77c0fdedc5302ac50f067c1d44d3964850",
+        "sha256_in_prefix": "ae4ea5246ecf05093e50dc8d1f059e77c0fdedc5302ac50f067c1d44d3964850",
+        "size_in_bytes": 4140
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/correlation.py",
+        "path_type": "hardlink",
+        "sha256": "572b6d367ed11e0b3d6d8084a0177840a8fdb247c875311d4e152d38f75c177f",
+        "sha256_in_prefix": "572b6d367ed11e0b3d6d8084a0177840a8fdb247c875311d4e152d38f75c177f",
+        "size_in_bytes": 12148
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/dispersion.py",
+        "path_type": "hardlink",
+        "sha256": "aff6142ce8c361b65498d2dcf8cd38cc8abcba1b4c39a1233056b1b1bbd40627",
+        "sha256_in_prefix": "aff6142ce8c361b65498d2dcf8cd38cc8abcba1b4c39a1233056b1b1bbd40627",
+        "size_in_bytes": 13850
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/freqdist.py",
+        "path_type": "hardlink",
+        "sha256": "cc2d273fd1c8e953209c8726da086ad5f322b61599ce2ebe2f511747a9d8b2e7",
+        "sha256_in_prefix": "cc2d273fd1c8e953209c8726da086ad5f322b61599ce2ebe2f511747a9d8b2e7",
+        "size_in_bytes": 10105
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/postag.py",
+        "path_type": "hardlink",
+        "sha256": "004f3f4026fa41b114dcadfe8c53d54132b53648d143aa362bd905530b0d9b2d",
+        "sha256_in_prefix": "004f3f4026fa41b114dcadfe8c53d54132b53648d143aa362bd905530b0d9b2d",
+        "size_in_bytes": 22821
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/tsne.py",
+        "path_type": "hardlink",
+        "sha256": "5289eb5168527eb0ea2c0bffa5e7bf0f383a8a994c9f39e04557b38667af01df",
+        "sha256_in_prefix": "5289eb5168527eb0ea2c0bffa5e7bf0f383a8a994c9f39e04557b38667af01df",
+        "size_in_bytes": 15368
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/text/umap_vis.py",
+        "path_type": "hardlink",
+        "sha256": "21da4846b71166509693b4c2cf2a7c1f027ab3b3f255d61e660e3310f5b26794",
+        "sha256_in_prefix": "21da4846b71166509693b4c2cf2a7c1f027ab3b3f255d61e660e3310f5b26794",
+        "size_in_bytes": 13473
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "548c219ee2e77d672706651d107a37626ae46614d8e9a03e2b58d13d99d08e9c",
+        "sha256_in_prefix": "548c219ee2e77d672706651d107a37626ae46614d8e9a03e2b58d13d99d08e9c",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf285280435197bc681a6c4713f9c6c264d3a375139dd2b99ab3343c62701d29",
+        "sha256_in_prefix": "cf285280435197bc681a6c4713f9c6c264d3a375139dd2b99ab3343c62701d29",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/decorators.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed5b688e499bfc30b14ac73dc3b6e011f39c47f978ca5130dbd7ee9ddf9f1e3d",
+        "sha256_in_prefix": "ed5b688e499bfc30b14ac73dc3b6e011f39c47f978ca5130dbd7ee9ddf9f1e3d",
+        "size_in_bytes": 3169
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f6d3350d81f0c3ed9d4851fcab9478cbf7b2b5b10c281b282df57bb79c68dc0",
+        "sha256_in_prefix": "8f6d3350d81f0c3ed9d4851fcab9478cbf7b2b5b10c281b282df57bb79c68dc0",
+        "size_in_bytes": 11186
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/kneed.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad9b2b848f34202644b1c3d988a82d5871b92246e360866079236bd1688aa603",
+        "sha256_in_prefix": "ad9b2b848f34202644b1c3d988a82d5871b92246e360866079236bd1688aa603",
+        "size_in_bytes": 12597
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/nan_warnings.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe9649f81c29ab66f1d5d82154f43f7393e7efb95374627be85dd3343a7f6f65",
+        "sha256_in_prefix": "fe9649f81c29ab66f1d5d82154f43f7393e7efb95374627be85dd3343a7f6f65",
+        "size_in_bytes": 3547
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/target.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "67de21aca61f43b34b37645edf04a91935368464100df87a4570284735740b78",
+        "sha256_in_prefix": "67de21aca61f43b34b37645edf04a91935368464100df87a4570284735740b78",
+        "size_in_bytes": 3520
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/timer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "57a5bd334ce6ee9b020d63dff15f770f6d7d7bc8a72b54a52fcb0b84885ad340",
+        "sha256_in_prefix": "57a5bd334ce6ee9b020d63dff15f770f6d7d7bc8a72b54a52fcb0b84885ad340",
+        "size_in_bytes": 1655
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7aa5163c178b2142048ad07e311f0fe93f3b0434c3cbc72b4a84ba6f55c6f4f5",
+        "sha256_in_prefix": "7aa5163c178b2142048ad07e311f0fe93f3b0434c3cbc72b4a84ba6f55c6f4f5",
+        "size_in_bytes": 5478
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/__pycache__/wrapper.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fecd9167256779472d78ab95c978a5a240fd651f9b3f494a1751e262e3f8621",
+        "sha256_in_prefix": "8fecd9167256779472d78ab95c978a5a240fd651f9b3f494a1751e262e3f8621",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "2ab2d6008da450089f590f98f642714a4362c7907fe1fe337e7ef531d16b648a",
+        "sha256_in_prefix": "2ab2d6008da450089f590f98f642714a4362c7907fe1fe337e7ef531d16b648a",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "d79ae2aa6e0a7bf02ba1fea9cfeb604b8dd9451ef0783ab165c8fb44acf9b4aa",
+        "sha256_in_prefix": "d79ae2aa6e0a7bf02ba1fea9cfeb604b8dd9451ef0783ab165c8fb44acf9b4aa",
+        "size_in_bytes": 9925
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/kneed.py",
+        "path_type": "hardlink",
+        "sha256": "a8367868e1c57c8de4e80a93c08b0dd5cb6d6c7ec346ae42edd24079c7d8c9c0",
+        "sha256_in_prefix": "a8367868e1c57c8de4e80a93c08b0dd5cb6d6c7ec346ae42edd24079c7d8c9c0",
+        "size_in_bytes": 11561
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/nan_warnings.py",
+        "path_type": "hardlink",
+        "sha256": "f1463a3aaead854442cf1ef1a881e6d3b314d98e7092640b42cff509c20bd1d9",
+        "sha256_in_prefix": "f1463a3aaead854442cf1ef1a881e6d3b314d98e7092640b42cff509c20bd1d9",
+        "size_in_bytes": 2680
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/target.py",
+        "path_type": "hardlink",
+        "sha256": "33619421c2279e4392d8d6d2382fc30a72fcde27b2e175f42390eb468df44343",
+        "sha256_in_prefix": "33619421c2279e4392d8d6d2382fc30a72fcde27b2e175f42390eb468df44343",
+        "size_in_bytes": 3116
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/timer.py",
+        "path_type": "hardlink",
+        "sha256": "076bdd90dfc9411e5d55b6624f805ee8d9ffa8a3f8114c98833b8de7094653f6",
+        "sha256_in_prefix": "076bdd90dfc9411e5d55b6624f805ee8d9ffa8a3f8114c98833b8de7094653f6",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/types.py",
+        "path_type": "hardlink",
+        "sha256": "17494df5cf6ff07d1e56881c98c1050cae3285a666be86a4b07a0b836f895973",
+        "sha256_in_prefix": "17494df5cf6ff07d1e56881c98c1050cae3285a666be86a4b07a0b836f895973",
+        "size_in_bytes": 6249
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/utils/wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "47c69c3529b8393d66119222d3428bfaff0be296c3d8fa50cc987187f1cedebc",
+        "sha256_in_prefix": "47c69c3529b8393d66119222d3428bfaff0be296c3d8fa50cc987187f1cedebc",
+        "size_in_bytes": 1644
+      },
+      {
+        "_path": "Lib/site-packages/yellowbrick/version.py",
+        "path_type": "hardlink",
+        "sha256": "7bb4d60547b026987e2242da0077c83f99727665ac7cb73db6a5600e0568fade",
+        "sha256_in_prefix": "7bb4d60547b026987e2242da0077c83f99727665ac7cb73db6a5600e0568fade",
+        "size_in_bytes": 1496
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "yellowbrick",
+  "sha256": "08fa8a9c6e75621cf84ac4ccc4205168ed92967457f52bd8a1792ae6a32b9521",
+  "size": 328545,
+  "subdir": "win-64",
+  "timestamp": 1699570505000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/yellowbrick-1.5-py312haa95532_0.conda",
+  "version": "1.5"
+}

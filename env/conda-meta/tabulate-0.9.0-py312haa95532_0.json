@@ -1,0 +1,154 @@
+{
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\filip\\miniconda3\\pkgs\\tabulate-0.9.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/tabulate-0.9.0.dist-info/INSTALLER",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/LICENSE",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/METADATA",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/RECORD",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/REQUESTED",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/WHEEL",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/direct_url.json",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/entry_points.txt",
+    "Lib/site-packages/tabulate-0.9.0.dist-info/top_level.txt",
+    "Lib/site-packages/tabulate/__init__.py",
+    "Lib/site-packages/tabulate/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/tabulate/__pycache__/version.cpython-312.pyc",
+    "Lib/site-packages/tabulate/version.py",
+    "Scripts/tabulate-script.py",
+    "Scripts/tabulate.exe",
+    ".nonadmin"
+  ],
+  "fn": "tabulate-0.9.0-py312haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\filip\\miniconda3\\pkgs\\tabulate-0.9.0-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "d29b086d3102fbc514741127f561f803",
+  "name": "tabulate",
+  "package_tarball_full_path": "C:\\Users\\filip\\miniconda3\\pkgs\\tabulate-0.9.0-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2",
+        "sha256_in_prefix": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3a6878cc04344571e4e3bb751879e4d43912b3e098f34c02c40564113e3d908f",
+        "sha256_in_prefix": "3a6878cc04344571e4e3bb751879e4d43912b3e098f34c02c40564113e3d908f",
+        "size_in_bytes": 35281
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cb9957bbbbadfa9474c03832062e48371b6ce6d8eaa4af2ef745a7685f4dab26",
+        "sha256_in_prefix": "cb9957bbbbadfa9474c03832062e48371b6ce6d8eaa4af2ef745a7685f4dab26",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8562aa8a20ad29078d6a0b7117622148947329c435e099c54a91321a1c10d0e3",
+        "sha256_in_prefix": "8562aa8a20ad29078d6a0b7117622148947329c435e099c54a91321a1c10d0e3",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f039828416266b69f852a0b556490a6c3e4dbb832b7596ac511a1e4ed1b4255a",
+        "sha256_in_prefix": "f039828416266b69f852a0b556490a6c3e4dbb832b7596ac511a1e4ed1b4255a",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "Lib/site-packages/tabulate-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595",
+        "sha256_in_prefix": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/tabulate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5f7af0a28fcd713b830c97388675945fa8c4950b05b58f8d187c900a5752d57d",
+        "sha256_in_prefix": "5f7af0a28fcd713b830c97388675945fa8c4950b05b58f8d187c900a5752d57d",
+        "size_in_bytes": 95290
+      },
+      {
+        "_path": "Lib/site-packages/tabulate/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b388a7caaed5dd889c887cd6055ce649a6023e2dc40fddca21ac881d58497c6",
+        "sha256_in_prefix": "0b388a7caaed5dd889c887cd6055ce649a6023e2dc40fddca21ac881d58497c6",
+        "size_in_bytes": 91734
+      },
+      {
+        "_path": "Lib/site-packages/tabulate/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef530c726fc7ab12b0a01aa01844421464ede58b4d74b5730aa48e5ddab7126f",
+        "sha256_in_prefix": "ef530c726fc7ab12b0a01aa01844421464ede58b4d74b5730aa48e5ddab7126f",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "Lib/site-packages/tabulate/version.py",
+        "path_type": "hardlink",
+        "sha256": "20ba39b79f691aeb8c276fc2eb31d28cf27a7355e614b2642993b37c679468c3",
+        "sha256_in_prefix": "20ba39b79f691aeb8c276fc2eb31d28cf27a7355e614b2642993b37c679468c3",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "Scripts/tabulate-script.py",
+        "path_type": "hardlink",
+        "sha256": "a23501b9b2223afe6044ebe4603b5c6ef85d5de706b725d3acc703927a14cf8b",
+        "sha256_in_prefix": "a23501b9b2223afe6044ebe4603b5c6ef85d5de706b725d3acc703927a14cf8b",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "Scripts/tabulate.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tabulate",
+  "sha256": "ac7c792586587cfa6e77b5223e465aadc0394e546fc54f2a79750256cbab4115",
+  "size": 80581,
+  "subdir": "win-64",
+  "timestamp": 1701812894000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tabulate-0.9.0-py312haa95532_0.conda",
+  "version": "0.9.0"
+}

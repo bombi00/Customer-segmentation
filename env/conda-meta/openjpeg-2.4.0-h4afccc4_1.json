@@ -1,0 +1,127 @@
+{
+  "build": "h4afccc4_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libpng >=1.6.39,<1.7.0a0",
+    "libtiff >=4.2.0,<5.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\filip\\miniconda3\\pkgs\\openjpeg-2.4.0-h4afccc4_1",
+  "files": [
+    "Library/bin/openjp2.dll",
+    "Library/bin/opj_compress.exe",
+    "Library/bin/opj_decompress.exe",
+    "Library/bin/opj_dump.exe",
+    "Library/include/openjpeg-2.4/openjpeg.h",
+    "Library/include/openjpeg-2.4/opj_config.h",
+    "Library/include/openjpeg-2.4/opj_stdint.h",
+    "Library/lib/openjp2.lib",
+    "Library/lib/openjpeg-2.4/OpenJPEGConfig.cmake",
+    "Library/lib/openjpeg-2.4/OpenJPEGTargets-debug.cmake",
+    "Library/lib/openjpeg-2.4/OpenJPEGTargets.cmake",
+    ".nonadmin"
+  ],
+  "fn": "openjpeg-2.4.0-h4afccc4_1.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\filip\\miniconda3\\pkgs\\openjpeg-2.4.0-h4afccc4_1",
+    "type": 1
+  },
+  "md5": "2234bfd1b64a9e07a9e64080ccc6e3d1",
+  "name": "openjpeg",
+  "package_tarball_full_path": "C:\\Users\\filip\\miniconda3\\pkgs\\openjpeg-2.4.0-h4afccc4_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/openjp2.dll",
+        "path_type": "hardlink",
+        "sha256": "347727af1c992056b1df2e74507273254b6b7421792b4066d6f052bcd50717ab",
+        "sha256_in_prefix": "347727af1c992056b1df2e74507273254b6b7421792b4066d6f052bcd50717ab",
+        "size_in_bytes": 925464
+      },
+      {
+        "_path": "Library/bin/opj_compress.exe",
+        "path_type": "hardlink",
+        "sha256": "2df84ff840e26a16a8aea1563773b9c4acccf404ebd54c8fe112343fab77838d",
+        "sha256_in_prefix": "2df84ff840e26a16a8aea1563773b9c4acccf404ebd54c8fe112343fab77838d",
+        "size_in_bytes": 317208
+      },
+      {
+        "_path": "Library/bin/opj_decompress.exe",
+        "path_type": "hardlink",
+        "sha256": "eadc42c9aaf819021811d6fc7e083954e6a34043a32429e1a65cc61d42bfded0",
+        "sha256_in_prefix": "eadc42c9aaf819021811d6fc7e083954e6a34043a32429e1a65cc61d42bfded0",
+        "size_in_bytes": 305936
+      },
+      {
+        "_path": "Library/bin/opj_dump.exe",
+        "path_type": "hardlink",
+        "sha256": "0c78d20502db56ea706593f8337e852293e2c5f23ac5984e2aba175e24d9ef08",
+        "sha256_in_prefix": "0c78d20502db56ea706593f8337e852293e2c5f23ac5984e2aba175e24d9ef08",
+        "size_in_bytes": 282392
+      },
+      {
+        "_path": "Library/include/openjpeg-2.4/openjpeg.h",
+        "path_type": "hardlink",
+        "sha256": "f00c25322824a36806fdf0f2c052af18b1fc79280e30c1c771745c8cfa52e870",
+        "sha256_in_prefix": "f00c25322824a36806fdf0f2c052af18b1fc79280e30c1c771745c8cfa52e870",
+        "size_in_bytes": 62814
+      },
+      {
+        "_path": "Library/include/openjpeg-2.4/opj_config.h",
+        "path_type": "hardlink",
+        "sha256": "5f939856673a6c111a5341fb6ecca5e893e4b301b55ec455ee203491122af1f0",
+        "sha256_in_prefix": "5f939856673a6c111a5341fb6ecca5e893e4b301b55ec455ee203491122af1f0",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "Library/include/openjpeg-2.4/opj_stdint.h",
+        "path_type": "hardlink",
+        "sha256": "cea19da3f57de8102a2b654c70237faa99d9d4ca61ec869c642f057aa5ca0d7e",
+        "sha256_in_prefix": "cea19da3f57de8102a2b654c70237faa99d9d4ca61ec869c642f057aa5ca0d7e",
+        "size_in_bytes": 2171
+      },
+      {
+        "_path": "Library/lib/openjp2.lib",
+        "path_type": "hardlink",
+        "sha256": "e20b4d8b59c1ec0490bf1e8d906dcd3253939949fa86ff1b3299288d25bfd498",
+        "sha256_in_prefix": "e20b4d8b59c1ec0490bf1e8d906dcd3253939949fa86ff1b3299288d25bfd498",
+        "size_in_bytes": 13066
+      },
+      {
+        "_path": "Library/lib/openjpeg-2.4/OpenJPEGConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_024blu59do/croot/openjpeg_1719842633436/_h_env",
+        "sha256": "1fffd59147e696c7e92593a31610577e456981455a2577536419c781cb763685",
+        "sha256_in_prefix": "6c91a102d75fb49cec465e343c1b1717f14a111f75b103b819405d7799590d72",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "Library/lib/openjpeg-2.4/OpenJPEGTargets-debug.cmake",
+        "path_type": "hardlink",
+        "sha256": "bfcd6254294d4932c2796b0243c59324fee7880b636822e1991d2b334484c347",
+        "sha256_in_prefix": "bfcd6254294d4932c2796b0243c59324fee7880b636822e1991d2b334484c347",
+        "size_in_bytes": 2105
+      },
+      {
+        "_path": "Library/lib/openjpeg-2.4/OpenJPEGTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "ed10cadd3afc9104cd1a2062444309024d220559503aec73dd29c2e1207bb707",
+        "sha256_in_prefix": "ed10cadd3afc9104cd1a2062444309024d220559503aec73dd29c2e1207bb707",
+        "size_in_bytes": 4074
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c5bc10eaefc4861649e103dee99bf5912e1a1091efc46be0898888eb6a6c5e27",
+  "size": 290964,
+  "subdir": "win-64",
+  "timestamp": 1719842789000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/openjpeg-2.4.0-h4afccc4_1.conda",
+  "version": "2.4.0"
+}
